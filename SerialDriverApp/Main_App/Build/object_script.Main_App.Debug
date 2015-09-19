@@ -1,0 +1,13 @@
+INPUT(
+./debug/main.o
+./debug/mainwindow.o
+./debug/mytcpserver.o
+./debug/comsetupmenue.o
+./debug/slavethread.o
+./debug/comsetup.o
+./debug/moc_mainwindow.o
+./debug/moc_mytcpserver.o
+./debug/moc_comsetupmenue.o
+./debug/moc_slavethread.o
+./debug/moc_comsetup.o
+);

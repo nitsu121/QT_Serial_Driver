@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>582</width>
+    <height>698</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="DataOutLabel">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>5</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Data Out:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DataInLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>335</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Data In:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit0">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SendPushButton">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>190</y>
+      <width>56</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SEND</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ConnectPushButton">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>225</y>
+      <width>66</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CONNECT</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit1">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit3">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit4">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit5">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit6">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit7">
+    <property name="geometry">
+     <rect>
+      <x>385</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit8">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit9">
+    <property name="geometry">
+     <rect>
+      <x>495</x>
+      <y>30</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit14">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit16">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit17">
+    <property name="geometry">
+     <rect>
+      <x>385</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit12">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit18">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit10">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit11">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit13">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit15">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit19">
+    <property name="geometry">
+     <rect>
+      <x>495</x>
+      <y>55</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit24">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit26">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit27">
+    <property name="geometry">
+     <rect>
+      <x>385</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit22">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit28">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit20">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit21">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit23">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit25">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit29">
+    <property name="geometry">
+     <rect>
+      <x>495</x>
+      <y>80</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit34">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit36">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit37">
+    <property name="geometry">
+     <rect>
+      <x>385</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit32">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit38">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit30">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit31">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit33">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit35">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit39">
+    <property name="geometry">
+     <rect>
+      <x>495</x>
+      <y>105</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit44">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit46">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit47">
+    <property name="geometry">
+     <rect>
+      <x>385</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit42">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit48">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit40">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit41">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit43">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit45">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataOutLineEdit49">
+    <property name="geometry">
+     <rect>
+      <x>495</x>
+      <y>130</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit6">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit8">
+    <property name="geometry">
+     <rect>
+      <x>445</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit2">
+    <property name="geometry">
+     <rect>
+      <x>115</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit0">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit4">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit7">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit9">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>365</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit5_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit9_2">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit8_2">
+    <property name="geometry">
+     <rect>
+      <x>445</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit7_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit3_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit0_2">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit4_2">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit2_2">
+    <property name="geometry">
+     <rect>
+      <x>115</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit1_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit6_2">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>390</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit4_3">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit1_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit0_3">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit3_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit5_3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit8_3">
+    <property name="geometry">
+     <rect>
+      <x>445</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit7_3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit6_3">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit4_4">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit9_3">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit5_4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit8_4">
+    <property name="geometry">
+     <rect>
+      <x>445</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit2_3">
+    <property name="geometry">
+     <rect>
+      <x>115</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit7_4">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit2_4">
+    <property name="geometry">
+     <rect>
+      <x>115</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit1_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit6_4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit9_4">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit3_4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>420</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit0_4">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>445</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit6_5">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit4_5">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit0_5">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit3_5">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit2_5">
+    <property name="geometry">
+     <rect>
+      <x>115</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit5_5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit8_5">
+    <property name="geometry">
+     <rect>
+      <x>445</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit7_5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit9_5">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEdit1_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>470</y>
+      <width>56</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DataInLineEditCombined">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>510</y>
+      <width>551</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>582</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFILE">
+    <property name="title">
+     <string>FILE</string>
+    </property>
+    <addaction name="actionSETUP_COM_PORT"/>
+   </widget>
+   <addaction name="menuFILE"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionSETUP_COM_PORT">
+   <property name="text">
+    <string>SETUP COM PORT</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
